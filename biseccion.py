@@ -21,7 +21,6 @@ def bisection(x1, x2,iterations,decimales):
             x2 = round(x,decimales)
             x = round((x1+x2)/2,decimales)
             intervalos = [x1,x,x2]
-            
         resultado = []
         print(intervalos)
     
